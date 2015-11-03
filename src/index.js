@@ -3,6 +3,7 @@ var config = require('eslint-config-standard')
 config.ecmaFeatures.modules = false
 
 var rules = {
+  'arrow-body-style': [2, 'as-needed'],
   'block-scoped-var': 2,
   'complexity': 1,
   'default-case': 2,
@@ -11,6 +12,7 @@ var rules = {
   'guard-for-in': 2,
   'linebreak-style': [1, 'unix'],
   'no-alert': 2,
+  'no-arrow-condition': 2,
   'no-catch-shadow': 2,
   'no-console': 2,
   'no-constant-condition': 2,
@@ -18,6 +20,7 @@ var rules = {
   'no-div-regex': 2,
   'no-else-return': 2,
   'no-empty': 2,
+  'no-empty-pattern': 2,
   'no-eq-null': 2,
   'no-extra-semi': 2,
   'no-implicit-coercion': 1,
