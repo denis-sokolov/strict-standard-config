@@ -1,6 +1,6 @@
 var config = require('eslint-config-standard')
 
-config.ecmaFeatures.modules = false
+config.parserOptions.sourceType = 'script'
 
 var rules = {
   'arrow-body-style': [2, 'as-needed'],
@@ -12,8 +12,9 @@ var rules = {
   'guard-for-in': 2,
   'linebreak-style': [1, 'unix'],
   'no-alert': 2,
-  'no-arrow-condition': 2,
   'no-catch-shadow': 2,
+  'no-case-declarations': 2,
+  'no-confusing-arrow': [2, { 'allowParens': true }],
   'no-console': 2,
   'no-constant-condition': 2,
   'no-continue': 1,
@@ -25,6 +26,7 @@ var rules = {
   'no-extra-semi': 2,
   'no-implicit-coercion': 1,
   'no-inline-comments': 2,
+  'no-labels': 2,
   'no-loop-func': 2,
   'no-mixed-requires': 2,
   'no-nested-ternary': 1,
