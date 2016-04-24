@@ -27,7 +27,8 @@ var rules = {
   'no-implicit-coercion': 1,
   'no-inline-comments': 2,
   'no-labels': 2,
-  'no-loop-func': 2,
+  //  https://github.com/denis-sokolov/strict-standard/issues/8
+  // 'no-loop-func': 2,
   'no-mixed-requires': 2,
   'no-nested-ternary': 1,
   'no-process-env': 1,
