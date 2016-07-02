@@ -11,7 +11,7 @@ This is a Strict Standard configuration for ESLint. You might want to use the [`
 ## Usage
 
 ```
-npm install --save-dev eslint eslint-config-strict-standard eslint-plugin-standard
+npm install --save-dev eslint eslint-config-strict-standard eslint-plugin-standard eslint-plugin-promise
 ```
 
 Create an `.eslintrc` file in your project:
